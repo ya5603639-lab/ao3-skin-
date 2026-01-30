@@ -1,0 +1,190 @@
+紫色
+:root {
+  --margins-header: 1rem;
+  --margins-main: 5%;
+  --margins-narrow: 2.5%;
+  --radius-small: 0.75rem;
+  --radius-mid: 0.75rem;
+  --radius-big: 0.75rem;
+  --radius-alt: 0.75rem;
+  --radius-tag: 0 15px 15px;
+  --icon-content-radius: 0.75rem;
+  --icon-primary-radius: 99999px;
+  --icon-index-radius: 0.75rem;
+  --bg1: #e6e3f8;
+  --bg2: #F0F0F4;
+  --bg3: #d4cfef;
+  --bg4: var(--bg5);
+  --bg5: var(--bg2);
+  --bg6: var(--bg5);
+  --bg7: var(--bg5);
+  --border1: #aaa1ce;
+  --border2: #bba1cb;
+  --border3: var(--border2);
+  --border4: #bba1cb;
+  --border-width: 1px;
+  --shadow: 0 0.25em 0.5em #89797925;
+  --shadow-header: 0 2px 8px 0 #c8b6ad33, 0 1px 0 0 rgba(200, 182, 173, 0.10);
+  --shadow-buttons: 0 2px 6px 0 #c8b6ad33, 0 1.5px 0 0 #e7d3cb80;
+  --shadow-box1: 0 2px 8px 0 #c8b6ad33, 0 1.5px 0 0 #e7d3cb80;
+  --shadow-box2: 0 1.5px 4px 0 #c8b6ad22, 0 1px 0 0 #e7d3cb40;
+  --txt-size-main: 100%;
+  --txt-size-work: 110%;
+  --txt-header: #907DAC;
+  --txt-header-hgl: var(--link-hgl);
+  --txt-header-hgl-h1: linear-gradient(125deg, #EA9A97, #eb6f92);
+  --txt-main: var(--txt-header);
+  --txt-alt1: #FFFFFF;
+  --txt-alt2: #FFFFFF;
+  --txt-semibold: 500;
+  --txt-bold: 700;
+  --link: #5E4AFB;
+  --link-hgl: #6e318e;
+  --link-visited: #3e8fb0;
+  --link-underline: 1px solid transparent;
+  --int-btn-bg: var(--bg5);
+  --int-btn-border: var(--border4);
+  --int-btn-txt: var(--txt-main);
+  --int-btn-hgl-bg: linear-gradient(to bottom right, #EA9A97, #e3d7fc);
+  --int-btn-hgl-txt: var(--txt-alt2);
+  --int-btn-hgl-border: #00000005;
+  --int-bg: var(--bg5);
+  --int-search: var(--bg5);
+  --int-current-bg: var(--bg5);
+  --int-current-txt: var(--txt-main);
+  --int-current-border: var(--border1);
+  --int-disabled-bg: var(--border1);
+  --int-checked: #C6E7AF5;
+  --int-hgl: var(--link-hgl);
+  --int-hgl-bg: var(--int-btn-hgl-bg);
+  --int-hgl-txt: var(--txt-alt2);
+  --icon-content-complete: #3e8fb0;
+  --icon-content-incomplete: #f6c177;
+  --icon-content-public: #3e8fb0;
+  --icon-content-private: #eb6f92;
+  --icon-content-hidden: #908caa;
+  --icon-content-rec: #f6c177;
+  --icon-rating-gen: #3e8fb0;
+  --icon-rating-teen: #9ccfd8;
+  --icon-rating-mature: #eb6f92;
+  --icon-rating-explicit: #f6c177;
+  --icon-relationship-mm: #9ccfd8;
+  --icon-relationship-mf: #eb6f92;
+  --icon-relationship-gen: #3e8fb0;
+  --icon-relationship-ff: #f6c177;
+  --icon-multi: conic-gradient(from 360deg, #eb6f92 0% 25%, #9ccfd8 25% 50%, #f6c177 50% 75%, #3e8fb0 75% 100%);
+  --icon-relationship-other: linear-gradient(to left top, #3e8fb0, #9ccfd8, #eb6f92, #f6c177);
+  --icon-warning-choose-not: #eb6f92;
+  --icon-warning-yes: #f6c177;
+  --icon-content-external: #3e8fb0;
+  --icon-bg: var(--int-bg);
+  --icon-id: var(--link);
+  --icon-anon: var(--border4);
+  --icon-border1: var(--int-btn-hgl-border);
+  --icon-border2: var(--border2);
+  --tag-default-bg: #B891D0;
+  --tag-fandom-bg: #6e318e;
+  --tag-warning-bg: #aba3d5;
+  --tag-ship-bg: #806d9e;
+  --tag-character-bg: #bc91c6;
+  --tag-freeform-bg: var(--tag-default-bg);
+  --tag-splash-bg: #aba3d5;
+  --tag-default-txt: var(--txt-alt1);
+  --tag-fandom-txt: var(--txt-alt1);
+  --tag-warning-txt: var(--txt-alt1);
+  --tag-ship-txt: var(--txt-alt1);
+  --tag-character-txt: var(--txt-alt1);
+  --tag-freeform-txt: var(--txt-alt1);
+  --tag-border: #9893a525;
+  --tag-hgl-bg: var(--int-btn-hgl-bg);
+  --tag-hgl-txt: var(--txt-alt2);
+  --tag-hsl-shadow: inset 0 0 0 1px rgba(255,255,255,0.3);
+  --notice-bg: #fbeaec;
+  --success-bg: #f0f8fc;
+  --caution-bg: #fef8ea;
+  --alert-bg: #FDE8ED;
+  --notice-txt: #ea9a97;
+  --success-txt: #3e8fb0;
+  --caution-txt: #f6c177;
+  --alert-txt: #eb6f92;
+  --header-icon: brightness(0) saturate(100%) invert(31%) sepia(23%) saturate(756%) hue-rotate(208deg) brightness(98%) contrast(87%);
+  --header-icon-hgl: brightness(0) saturate(100%) invert(71%) sepia(22%) saturate(4960%) hue-rotate(300deg) brightness(94%) contrast(96%);
+  --kudos-icon: var(--header-icon);
+  --lock-icon: var(--header-icon);
+  --tag-filter: brightness(1.15);
+  --stats-icon: var(--header-icon);
+  --stat-chart: saturate(45%) hue-rotate(255deg) contrast(110%) sepia(10%) brightness(110%);
+  --rich-txt-editor: none;
+}
+body,
+input,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+blockquote,
+.prompt .blurb h6,
+.bookmark .user .meta,
+a.work,
+span.symbol,
+.heading .actions,
+.heading .action,
+.heading span.actions,
+button,
+span.unread,
+.replied,
+span.claimed,
+.actions span.defaulted,
+.splash .news .meta,
+.datetime,
+h5.fandoms.heading a.tag,
+dd.fandom.tags a,
+select {
+  font-family: Figtree, Bitter, Helvetica, "Trebuchet MS", "Lucida Sans", Arial, sans-serif, "GNU Unifont";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  font-family: Figtree, Bitter, Helvetica, "Trebuchet MS", "Lucida Sans", Arial, sans-serif, "GNU Unifont";
+  font-weight: var(--txt-bold);
+}
+kbd,
+tt,
+code,
+var,
+pre,
+samp,
+textarea,
+textarea#skin_css,
+.css.module blockquote pre,
+#floaty-textarea {
+  font-family: Victor Mono Medium, Consolas, Monaco, Courier, monospace;
+  font-size: 0.9em;
+}
+#header .heading a::before {
+  content: "Archive of Our Own\00a0✿";
+}
+#dashboard .current:after {
+  content: "\00a0✿";
+}
+.home .header h2::after {
+  content: "\00a0✿";
+}
+.splash>.module h3::after {
+  content: "\00a0✿";
+}
+a.tag:not(.fandom.index.group a.tag,
+h2.heading a.tag,
+.splash .favorite a.tag,
+h5.fandoms.heading a.tag,
+dd.fandom.tags a,
+[class^=warning] a.tag,
+[class^=relationship] a,
+[class^=character] a.tag):after {
+  content: "\00a0\00a0✿";
+}
+
