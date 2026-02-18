@@ -1,0 +1,578 @@
+#greeting .user > li:first-child > a {
+  display: none;
+}
+
+#greeting .user > li:first-child::before {
+  content: "Hi, Master♡";
+  color: #5eead4;
+  font-weight: bold;
+  padding: 0.25em 0.75em;
+  display: inline-block;
+  line-height: 1.286;
+}
+
+#header .heading sup {
+  visibility: hidden;
+}
+
+#header .heading a {
+  font-weight: bold;
+}
+
+#header .heading sup::before {
+  content: "Master";
+  visibility: visible;
+}
+
+#header .heading sup {
+  font-weight: normal;
+}
+
+li.blurb,
+fieldset,
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .menu,
+form dl,
+div.comment,
+li.comment {
+  border: none !important;
+}
+
+fieldset,
+listbox,
+form dl,
+fieldset fieldset {
+  background: #134e4a;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+dl.index dd,
+.comment h4.byline,
+.unread,
+.thread .even {
+  background: transparent;
+}
+
+#header .menu li {
+  border-bottom: none;
+  margin: 0 0.25em;
+  text-align: left;
+  background: transparent;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  clear: right;
+  background: transparent;
+  border: 3px solid transparent;
+  padding: 0;
+  margin: 0.643em auto;
+  overflow: hidden;
+}
+
+input,
+textarea,
+select {
+  border-radius: 0.25em;
+}
+
+.filters .expanded .expander {
+  background-image: none;
+}
+
+.filters .expander {
+  padding: 0.25em 0.375em;
+  border: 1px #0f766e;
+  background: #0f766e;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25em;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 0.5em;
+  color: #a7f3d0;
+}
+
+.splash .module h3:after {
+  font-style: normal;
+  content: " ♡ ";
+}
+
+.splash .module h3 {
+  border-bottom: none;
+  font-size: 140%;
+}
+
+h1,
+h2,
+h3,
+.heading {
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.home .primary .icon::after {
+  display: none;
+}
+
+html {
+  font-size: 115%;
+}
+
+img.logo {
+  display: none;
+}
+
+#header .logo {
+  float: left;
+  height: 30px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+#header .heading {
+  float: left;
+  padding: 0em;
+}
+
+#greeting img.icon {
+  height: 1.5em;
+  width: 1.5em;
+  background-size: 100%;
+  margin-bottom: 1px;
+}
+
+#header .user {
+  padding: 0.25em;
+  position: relative;
+}
+
+.blurb h4 a:link,
+.blurb h4 img {
+  font-weight: bold;
+}
+
+.icon {
+  border-radius: 50%;
+}
+
+.home .header ul.actions {
+  margin-bottom: 0.643em;
+  padding-top: 0;
+  margin-left: 110px;
+}
+
+body,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown {
+  background: #062f2e;
+}
+
+#outer {
+  background: #062f2e;
+}
+
+* {
+  font-family: "Helvetica", sans-serif !important;
+  color: #a7f3d0 !important;
+}
+
+.social.module.odd {
+  display: none;
+}
+
+li.blurb .relationships {
+  font-weight: bold;
+}
+
+dd.relationship.tags {
+  font-weight: bold;
+}
+
+.tags a.tag {
+  border: 1px #0f766e;
+  background: #0f766e;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+  padding-block: 6px;
+  border-radius: 0.25em;
+  line-height: 2.8;
+  text-decoration: none;
+  padding: 5px 8px;
+}
+
+.splash .social li {
+  display: none;
+}
+
+li.relationships a::after {
+  content: " ♡ ";
+  color: #2dd4bf;
+  margin-left: 2px;
+}
+
+ul.relationships li a::after {
+  content: " ♡";
+  color: #2dd4bf;
+  margin-left: 2px;
+}
+
+dd.relationship.tags a::after {
+  content: " ♡";
+  color: #2dd4bf;
+  margin-left: 2px;
+}
+
+dt.warning.tags a,
+dt.warning.tags {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.search [role="tooltip"],
+.secondary {
+  border: none;
+  background: #0f766e;
+  box-shadow: inset -2px -3px 4px rgba(0, 0, 0, 0.2);
+  padding-block: 6px;
+}
+
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  background: #0f766e;
+}
+
+#header .primary,
+#footer,
+.actions a,
+.actions a:link,
+.action,
+.action:link {
+  background: #134e4a;
+}
+
+#header #search .text {
+  color: #a7f3d0;
+  background: #0f766e;
+}
+
+ul.tags.commas li::after {
+  content: "";
+}
+
+.commas li:after {
+  content: "";
+}
+
+.preface h2.title {
+  font-weight: bold;
+}
+
+span.question {
+  background: transparent;
+  border-color: transparent;
+}
+
+span.symbol {
+  color: #2dd4bf;
+  font-family: helvetica;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  border: 1px #0f766e;
+  background: #0f766e;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25em;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover {
+  border: 1px #0f766e;
+  background: #115e59;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25em;
+}
+
+.splash .favorite a {
+  padding: 0.25em 0.375em;
+  border: 1px #0f766e;
+  background: #0f766e;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25em;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+button,
+.current,
+.actions label {
+  border: 1px #14b8a6;
+  border-style: dotted;
+}
+
+#header .primary .menu .current {
+  border-color: initial;
+  box-shadow: inset -2px -3px 4px rgba(13, 148, 136, 0.12);
+}
+
+#header .primary,
+#header ul.primary {
+  box-shadow: inset -2px -3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.actions li a,
+.actions li button,
+.actions li input,
+.actions li input[type="submit"],
+.actions li .current,
+.actions li label,
+input,
+textarea,
+select,
+input[type="checkbox"] {
+  border: 1px #14b8a6;
+  border-style: dotted;
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+label.action:hover,
+.action:hover,
+.current,
+fieldset,
+.wrapper,
+.listbox .index .listbox,
+fieldset fieldset.listbox,
+span.question,
+input,
+textarea,
+#header .menu,
+form dl {
+  box-shadow: none;
+}
+
+form.verbose legend {
+  border: 1px #0f766e;
+  background: #0f766e;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+  padding-block: 6px;
+  border-radius: 0.25em;
+}
+
+.actions li a,
+.actions li button,
+.actions li input,
+.actions li input[type="submit"],
+.actions li .current,
+.actions li label,
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions input:hover,
+button,
+.current,
+.actions label,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label,
+.listbox .index,
+.filters .expander,
+span.unread,
+.replied {
+  border: 1px #0f766e;
+  background: #0f766e;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+  padding-block: 6px;
+}
+
+span.unread,
+.replied {
+  border: 1px #0f766e !important;
+  background: #0f766e !important;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2) !important;
+  padding-block: 6px !important;
+}
+
+#dashboard a:hover,
+#dashboard .current {
+  border: 1px #0f766e;
+  background: #115e59;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+  padding-block: 4px;
+}
+
+#header #search .button {
+  background: transparent !important;
+  box-shadow: none;
+}
+
+.toggled form {
+  padding: 0.5em;
+  border: 2px solid transparent;
+  box-shadow: none;
+}
+
+#dashboard,
+#dashboard.own {
+  border-bottom: none;
+  border-top: none;
+}
+
+.logged-in .splash > div:nth-of-type(even) {
+  display: none;
+}
+
+.logged-in .splash > .module {
+  width: 100%;
+}
+
+#workskin,
+.userstuff {
+  background-color: #134e4a !important;
+  border: 1px #0f766e;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 1em;
+}
+
+.listbox .index {
+  width: auto;
+  padding: 0.643em;
+  margin: 0;
+  float: none;
+  clear: right;
+  background: #0f766e;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  box-shadow: none !important;
+}
+
+#outer #header .dropdown-menu li:nth-child(odd) a {
+  border: 1px #0f766e;
+  padding: 5px 9px;
+  background: #0f766e;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25em;
+}
+
+#outer #header .dropdown-menu li:nth-child(even) a {
+  border: 1px #0f766e;
+  padding: 5px 9px;
+  background: #0f766e;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25em;
+}
+
+#outer #header .dropdown-menu li:nth-child(odd) a:hover {
+  border: 1px #0f766e;
+  background: #115e59;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25em;
+}
+
+#outer #header .dropdown-menu li:nth-child(even) a:hover {
+  border: 1px #0f766e;
+  background: #115e59;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25em;
+}
+
+header .menu li {
+  border-bottom: 1px solid transparent;
+  margin: 0 .25em;
+  text-align: left;
+}
+
+.blurb .header img {
+  display: none;
+}
+
+#header .menu,
+#small_login {
+  background: transparent;
+  background-size: contain;
+  padding: .25em 0;
+  position: absolute;
+  width: 20em;
+  box-shadow: none;
+}
+
+.reading h4.viewed,
+#header h2 {
+  background: transparent;
+}
+
+a.tag:hover {
+  border: 1px #0f766e;
+  background: #115e59;
+  box-shadow: inset -1px -2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25em;
+}
+
+.userstuff blockquote {
+  border-inline-start: 3px solid #115e59;
+}
+
+.bookmark .user,
+li.comment {
+  border: 1px solid transparent;
+}
+
+dl.meta {
+  border: 1px solid #115e59;
+}
+
+.picture .header {
+  border-bottom: 1px solid #115e59;
+}
+
+#dashboard ul {
+  border-top: 1px solid transparent;
+}
+
+form dt {
+  border-bottom: 1px solid transparent;
+}
+
+.comment div.icon {
+  float: left;
+  margin: -1.5625em 0.5625em 0.5625em 0;
+  border-bottom: 5px solid transparent;
+}
+
+#header h2 {
+  display: none !important;
+}
