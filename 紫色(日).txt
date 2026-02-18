@@ -1,4 +1,3 @@
-紫色
 :root {
   --margins-header: 1rem;
   --margins-main: 5%;
